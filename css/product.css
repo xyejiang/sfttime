@@ -1,0 +1,292 @@
+@import "base.css";
+.banner {
+  margin-top: 10px;
+}
+.product-left {
+  float: left;
+}
+.product-left .product-content {
+  position: relative;
+  width: 210px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  color: #333;
+}
+.product-left .product-content h3 {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 15px;
+  background: url("../images/dt-6_1.gif");
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+.product-left .product-content h3 > div {
+  /*product-mian*/
+  position: absolute;
+  display: block;
+  clear: both;
+  left: 225px;
+  top: 0;
+  width: 755px;
+  height: auto;
+  float: left;
+  background: #fff;
+  z-index: -1;
+  visibility: inherit;
+}
+.product-left .product-content h3 > div .title {
+  height: 36px;
+  box-sizing: border-box;
+  line-height: 36px;
+  background: #f8f8f8;
+}
+.product-left .product-content h3 > div .title .title-left {
+  /*h3*/
+  float: left;
+  border-radius: 0 0 0 0;
+  border-bottom: 2px solid #ff6633;
+  padding-left: 15px;
+  font-size: 14px;
+  background: transparent;
+  color: #000;
+  font-weight: bold;
+}
+.product-left .product-content h3 > div .title .title-right {
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  color: #444;
+  padding-right: 15px;
+}
+.product-left .product-content h3 > div .title .title-right span {
+  color: #444;
+  background: transparent;
+}
+.product-left .product-content h3 > div .title .title-right a {
+  color: #05a300;
+}
+.product-left .product-content h3 > div .content > a {
+  margin-left: 20px;
+  margin-top: 15px;
+  text-align: center;
+  position: relative;
+  font-size: 12px;
+  color: #333;
+  float: left;
+  width: 230px;
+  height: 180px;
+}
+.product-left .product-content h3 > div .content > a img {
+  border: 1px solid #ccc;
+  width: 213px;
+  height: 160px;
+  position: relative;
+}
+.product-left .product-content h3 > div .content > a span {
+  position: absolute;
+  width: 215px;
+  height: 32px;
+  left: 7px;
+  bottom: -13px;
+}
+.product-left .product-content h3 > div .content .take {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 10px;
+  width: 215px;
+  height: 33px;
+  line-height: 33px;
+  color: #333;
+}
+.product-left .product-content h3 > div .content .take:hover {
+  color: #05a300;
+}
+.product-left .product-content h3 > div .content .content-foot {
+  display: block;
+  margin-top: 30px;
+  float: left;
+  width: 775px;
+  text-align: center;
+}
+.product-left .product-content h3 > div .content .content-foot span {
+  border: 1px solid #f3f3f3;
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  color: #ccc;
+  font-family: Tahoma, Verdana;
+  font-size: 12px;
+  cursor: pointer;
+}
+.product-left .product-content h3 > div .content .content-foot span:nth-last-of-type(3) {
+  color: #aaa;
+  background-color: #f0f0f0;
+}
+.product-left .product-content ul {
+  padding: 10px 15px;
+  background-color: #fff;
+}
+.product-left .product-content ul > li {
+  padding: 4px 0 5px 15px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.product-left .product-content ul > li i {
+  display: inline-block;
+  margin-left: -10px;
+  margin-right: 10px;
+  width: 5px;
+  height: 7px;
+  background: url("../images/dt-11_1.gif");
+}
+.product-left .product-content ul > li span:hover {
+  color: #05a300;
+}
+.product-left .product-content ul > li > ol {
+  display: none;
+}
+.product-left .product-content ul > li > ol li {
+  padding: 5px 10px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0;
+}
+.product-left .product-content ul > li > ol li:hover {
+  color: #05a300;
+}
+.product-left .product-content ul > li > .inner {
+  /*inner*/
+  position: absolute;
+  left: 225px;
+  top: 0;
+  width: 755px;
+  display: none;
+  background: #fff;
+}
+.product-left .product-content ul > li > .inner .title {
+  height: 36px;
+  box-sizing: border-box;
+  line-height: 36px;
+  background: #f8f8f8;
+}
+.product-left .product-content ul > li > .inner .title .title-left {
+  /*h3*/
+  float: left;
+  border-radius: 0 0 0 0;
+  border-bottom: 2px solid #ff6633;
+  padding-left: 15px;
+  font-size: 14px;
+  background: transparent;
+  color: #000;
+  font-weight: bold;
+}
+.product-left .product-content ul > li > .inner .title .title-right {
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  color: #444;
+  padding-right: 15px;
+}
+.product-left .product-content ul > li > .inner .title .title-right span {
+  color: #444;
+  background: transparent;
+}
+.product-left .product-content ul > li > .inner .title .title-right a {
+  color: #05a300;
+}
+.product-left .product-content ul > li > .inner .content {
+  padding: 15px 10px;
+  text-align: center;
+}
+.product-left .product-content ul > li > .inner .content img {
+  border: 1px solid #ccc;
+  margin: 0 10px;
+  width: 213px;
+  height: 160px;
+  position: relative;
+}
+.product-left .product-content ul > li > .inner .content .take {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 10px;
+  width: 215px;
+  height: 33px;
+  line-height: 33px;
+  color: #333;
+}
+.product-left .product-content ul > li > .inner .content .take:hover {
+  color: #05a300;
+}
+.product-left .product-content ul > li > .inner .content .content-top {
+  /*<!--添加内容区域-->*/
+  min-height: 30px;
+}
+.product-left .product-content ul > li > .inner .content .content-top > a {
+  margin-left: 15px;
+  margin-top: 15px;
+  position: relative;
+  float: left;
+  width: 230px;
+  height: 180px;
+}
+.product-left .product-content ul > li > .inner .content .content-top > a img {
+  border: 1px solid #ccc;
+  width: 213px;
+  height: 160px;
+  position: relative;
+}
+.product-left .product-content ul > li > .inner .content .content-top > a span {
+  position: absolute;
+  width: 215px;
+  height: 32px;
+  left: 7px;
+  bottom: -13px;
+}
+.product-left .product-content ul > li > .inner .content .content-foot {
+  display: block;
+  margin-top: 30px;
+  float: left;
+  width: 775px;
+  text-align: center;
+}
+.product-left .product-content ul > li > .inner .content .content-foot span {
+  border: 1px solid #f3f3f3;
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  color: #ccc;
+  margin-top: 30px;
+  font-family: Tahoma, Verdana;
+  font-size: 12px;
+  cursor: pointer;
+}
+.product-left .product-content ul > li > .inner .content .content-foot span:nth-last-of-type(3) {
+  color: #aaa;
+  background-color: #f0f0f0;
+}
+.product-left .contact {
+  width: 210px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+.product-left .contact h3 {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 15px;
+  background: url("../images/dt-6_1.gif");
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px 6px 0 0;
+}
+.product-left .contact > div {
+  padding: 10px 15px;
+  background-color: #fff;
+}
+.product-left .contact > div p {
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+}
+.product-left .contact > div p span {
+  background-color: #d5d5d7;
+}

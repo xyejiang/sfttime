@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*css 初始化--挪时科技 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {margin: 0; padding: 0;}
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+  border: none;padding: 0;margin: 0;outline-style: none;  }
+ul, ol {list-style: none;  }
+input {padding-top: 0;  padding-bottom: 0;  font-family: "SimSun", "宋体";  }
+select, input { vertical-align: middle;  }
+select, input, textarea {font-size: 12px;  margin: 0;  }
+textarea {resize: none;  }
+/*防止多行文本框拖动*/
+img {border: 0;vertical-align: middle;  }
+/*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse: collapse;			/*合并外边线*/  }
+body {font: 12px/150% "微软雅黑", Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/  color: #666;  background: #D5D5D7;  }
+.clearfix:before, .clearfix:after {  content: ""; display: table  }
+.clearfix:after {clear: both;  }
+.clearfix { *zoom: 1; /*IE/7/6*/  }
+a { color: #666;text-decoration: none;  }
+a:focus{outline:none;}
+a:hover {color: #05a300;  }
+h1, h2, h3, h4, h5, h6 {text-decoration: none;font-weight: normal;  font-size: 100%;  }
+s, i, em {font-style: normal;text-decoration: none;  }
+/*公共类*/
+.container {/*版心 提取 */width: 980px;margin: 0 auto;  }
+
+
+
+
+/*header部分开始*/
+  header{
+    position: relative;
+    height:174px;
+    background: url("../images/bg2.gif");
+    .logo{
+      float: left;
+      margin-left: 5px;
+      h1{
+        display: block;
+        width: 128px;
+        height: 128px;
+        background: url("../images/logo.png")no-repeat;
+        text-indent: -9999999px;
+      }
+    }
+    .topner{
+      position: relative;
+      height:128px;
+      overflow: hidden;
+      margin-right: 5px;
+      ul{
+        float: right;
+        margin-top: 10px;
+        li{
+          float: left;
+          color: #ffffff;
+          a{
+            color: #fff;
+            margin: 0 5px;
+            font-size: 12px;
+          }
+        }
+      }
+      p{
+        position: absolute;
+        right: 0px;
+        top: 66px;
+        color: #ffffff;
+        font-size: 12px;
+      }
+    }
+    nav{
+      position: absolute;
+      bottom: 0px;
+      ul{
+        width: 980px;
+        overflow: hidden;
+        li{
+          float: left;
+          overflow: hidden;
+          a{
+            display: inline-block;
+            height: 40px;
+            width: 138px;
+            text-align: center;
+            line-height: 40px;
+            color: #fff;
+            font-size: 14px;
+            background: url("../images/dt-3_1.gif");
+          }
+          i{
+            float: right;
+            width: 2px;
+            height: 40px;
+            background: url("../images/navbar.jpg");
+          }
+          a:hover{
+            background: url("../images/dt-4.gif");
+            color: #444;
+          }
+          .active{
+            background: url("../images/dt-4.gif");
+            color: #444;
+          }
+        }
+        .bdr-l{
+          border-radius: 6px 0 0 0;
+        }
+        .bdr-r{
+          border-radius: 0 6px 0 0;
+        }
+      }
+    }
+  }
+/*header部分结束*/
+/*footer部分开始*/
+  footer{
+    .footer-nav{
+      margin-top: 10px;
+      text-align: center;
+      a{
+        margin: 0 8px;
+        color: #333;
+      }
+      a:hover{
+        color: #05a300;
+      }
+    }
+    .footer-content{
+      div{
+        color: #333;
+        text-align: center;
+        height: 23px;
+        line-height: 28px;
+        a{
+          color: #333;
+        }
+        a:hover{
+          color: #05a300;
+        }
+      }
+    }
+  }
+/*footer部分结束*/
+/*固定定位部分开始*/
+.exchange{
+  .ex-show{
+    position: fixed;
+    right: 5px;
+    top: 100px;
+    cursor: pointer;
+    width: 26px;
+    height: 90px;
+    background: #4dc236;
+    padding: 8px 3px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+  }
+  .ex-hide{
+    position: fixed;
+    right: 5px;
+    top: 100px;
+    width: 129px;
+    background-color: #fff;
+    display: none;
+    span{
+      display: block;
+      background-color: #4dc236;
+      width: 129px;
+      height: 21px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      color: #fff;
+      font-size: 14px;
+      padding: 2px 0;
+    }
+    ul{
+      padding: 0 10px;
+      li{
+        p{
+          color: #31991d;
+          height: 21px;
+          line-height: 21px;
+          margin-top: 5px;
+          border: 0 none;
+        }
+        img{
+          display: inline-block;
+        }
+      }
+    }
+    p{
+      height: 40px;
+      border-top: 1px dotted #ccc;
+      margin-top: 12px;
+      padding: 0 10px;
+    }
+  }
+}
+/*固定定位部分结束*/

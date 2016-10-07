@@ -1,0 +1,303 @@
+  @import "base.css";
+
+  .banner{
+    margin-top: 10px;
+  }
+  .product-left{
+    float: left;
+    .product-content{
+      position: relative;
+      width: 210px;
+      margin-top: 15px;
+      box-sizing: border-box;
+      color: #333;
+      h3{
+        height: 34px;
+        line-height: 34px;
+        padding: 0 15px;
+        background: url("../images/dt-6_1.gif");
+        color: #fff;
+        font-size: 14px;
+        border-radius: 6px 6px 0 0;
+        position: relative;
+        >div{/*product-mian*/
+          position: absolute;
+          display: block;
+          clear: both;
+          left: 225px;
+          top: 0;
+          width: 755px;
+          height: auto;
+          float: left;
+          background: #fff;
+          z-index: -1;
+          visibility: inherit;
+          .title{
+            height: 36px;
+            box-sizing: border-box;
+            line-height: 36px;
+            background: #f8f8f8;
+            .title-left{/*h3*/
+              float: left;
+              border-radius: 0 0 0 0;
+              border-bottom: 2px solid #ff6633;
+              padding-left: 15px;
+              font-size: 14px;
+              background: transparent;
+              color: #000;
+              font-weight: bold;
+            }
+            .title-right{
+              display: inline-block;
+              float: right;
+              font-size: 12px;
+              color: #444;
+              padding-right: 15px;
+              span{
+                color: #444;
+                background: transparent;
+              }
+              a{
+                color: #05a300;
+              }
+            }
+          }
+          .content{
+            >a{
+              margin-left: 20px;
+              margin-top: 15px;
+              text-align: center;
+              position: relative;
+              font-size: 12px;
+              color: #333;
+              float: left;
+              //display: inline-block;
+              width: 230px;
+              height: 180px;
+              img{
+                border: 1px solid #ccc;
+                //margin: 10px 10px;
+                width: 213px;
+                height: 160px;
+                position: relative;
+              }
+              span{
+                position: absolute;
+                width: 215px;
+                height: 32px;
+                left: 7px;
+                bottom: -13px;
+              }
+            }
+            .take{
+              display: inline-block;
+              font-size: 12px;
+              margin: 0 10px;
+              width: 215px;
+              height: 33px;
+              line-height: 33px;
+              color: #333;
+              &:hover{
+                color: #05a300;
+              }
+            }
+            .content-foot{
+              display: block;
+              margin-top: 30px;
+              float: left;
+              width: 775px;
+              text-align: center;
+              span{
+                border: 1px solid #f3f3f3;
+                padding: 2px 5px 2px 5px;
+                margin: 2px;
+                color: #ccc;
+                font-family: Tahoma, Verdana;
+                font-size: 12px;
+                cursor: pointer;
+                &:nth-last-of-type(3){
+                  color: #aaa;
+                  background-color: #f0f0f0;
+                }
+              }
+            }
+          }
+        }
+      }
+      ul{
+        padding: 10px 15px;
+        background-color: #fff;
+        >li{
+          padding:4px 0 5px 15px;
+          line-height: 30px;
+          cursor: pointer;
+          i{
+            display: inline-block;
+            margin-left: -10px;
+            margin-right: 10px;
+            width: 5px;
+            height: 7px;
+            background: url("../images/dt-11_1.gif");
+          }
+          span:hover{
+            color: #05a300;
+          }
+          >ol {
+            display: none;
+            li{
+              padding: 5px 10px;
+              height: 20px;
+              line-height: 20px;
+              margin: 0;
+              &:hover{
+                color: #05a300;
+              }
+            }
+          }
+          >.inner{/*inner*/
+            position: absolute;
+            left: 225px;
+            top: 0;
+            width: 755px;
+            display: none;
+            background: #fff;
+            .title{
+              height: 36px;
+              box-sizing: border-box;
+              line-height: 36px;
+              background: #f8f8f8;
+              .title-left{/*h3*/
+                float: left;
+                border-radius: 0 0 0 0;
+                border-bottom: 2px solid #ff6633;
+                padding-left: 15px;
+                font-size: 14px;
+                background: transparent;
+                color: #000;
+                font-weight: bold;
+              }
+              .title-right{
+                display: inline-block;
+                float: right;
+                font-size: 12px;
+                color: #444;
+                padding-right: 15px;
+                span{
+                  color: #444;
+                  background: transparent;
+                }
+                a{
+                  color: #05a300;
+                }
+              }
+            }
+            .content{
+              padding: 15px 10px;
+              text-align: center;
+              img{
+                border: 1px solid #ccc;
+                margin: 0 10px;
+                width: 213px;
+                height: 160px;
+                position: relative;
+              }
+              .take{
+                display: inline-block;
+                font-size: 12px;
+                margin: 0 10px;
+                width: 215px;
+                height: 33px;
+                line-height: 33px;
+                color: #333;
+                &:hover{
+                  color: #05a300;
+                }
+              }
+              .content-top{
+              /*<!--添加内容区域-->*/
+                min-height: 30px;
+                >a{
+                  margin-left: 15px;
+                  margin-top: 15px;
+                  //text-align: center;
+                  position: relative;
+                  float: left;
+                  //display: inline-block;
+                  width: 230px;
+                  height: 180px;
+                  img{
+                    border: 1px solid #ccc;
+                    //margin: 10px 10px;
+                    width: 213px;
+                    height: 160px;
+                    position: relative;
+                  }
+                  span{
+                    position: absolute;
+                    width: 215px;
+                    height: 32px;
+                    left: 7px;
+                    bottom: -13px;
+                  }
+                }
+              }
+              .content-foot{
+                display: block;
+                margin-top: 30px;
+                float: left;
+                width: 775px;
+                text-align: center;
+                span{
+                  border: 1px solid #f3f3f3;
+                  padding: 2px 5px 2px 5px;
+                  margin: 2px;
+                  color: #ccc;
+                  margin-top: 30px;
+                  font-family: Tahoma, Verdana;
+                  font-size: 12px;
+                  cursor: pointer;
+                  &:nth-last-of-type(3){
+                    color: #aaa;
+                    background-color: #f0f0f0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .contact{
+      width: 210px;
+      box-sizing: border-box;
+      margin-top: 15px;
+      h3{
+        height: 34px;
+        line-height: 34px;
+        padding: 0 15px;
+        background: url("../images/dt-6_1.gif");
+        color: #fff;
+        font-size: 14px;
+        border-radius: 6px 6px 0 0;
+      }
+      >div{
+        padding: 10px 15px;
+        background-color: #fff;
+        p{
+          height: 24px;
+          line-height: 24px;
+          color: #333;
+          span{
+            background-color: rgb(213, 213, 215);
+          }
+        }
+      }
+
+    }
+  }
+
+
+
+
+
+

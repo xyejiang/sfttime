@@ -1,0 +1,65 @@
+
+
+
+    /*关于我们---单独的内容区块   h3 下面的内容*/
+    .about-h3 {
+        padding: 10px;
+        color: red;
+        text-align: left;
+    }
+    .about-h3 h4{
+        color: rgb(51, 51, 51);
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: bold;
+        text-indent: 1.5em;
+    }
+    .about-h3 p{
+        text-indent: 2em;
+        color: rgb(51, 51, 51);
+    }
+
+
+
+
+    /*li标签里面的内容区域*/
+    /*公司简介*/
+    .content-top{
+        /*background-color: red;*/
+        margin: -15px;
+        padding: 0 5px;
+    }
+    .content-top .about-h3 {
+        padding: 10px;
+        text-align: left;
+    }
+    .content-top #about-h3 > .about-h4{  /*h4*/
+        color: rgb(51, 51, 51);
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: bold;
+        text-indent: 2em !important;
+    }
+    .content-top .about-h3 p{
+        text-indent: 2em;
+        color: rgb(51, 51, 51);
+        line-height: 34px;
+        font-size: 14px;
+    }
+
+    /*联系我们*/
+    .our{
+        padding: 15px;
+    }
+    .our > img{
+        float: left;
+        width: 245px !important;
+        height: 230px !important;
+        margin: 10px 30px !important;
+    }
+    .our h4 {
+        text-align: left;
+    }
+    .our p{
+        text-align: left;
+    }

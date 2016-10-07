@@ -1,0 +1,261 @@
+@import "base.css";
+/*添加共同样式文件*/
+@import "../lib/default.css";
+/*轮播图整体设置，左右按钮  小点样式  图片大小设置 位置定位*/
+@import "../lib/nivo-slider.css";
+/*轮播图片重叠处理*/
+/*index内容*/
+.title {
+  overflow: hidden;
+  background-color: #D5D5D7;
+}
+.title span {
+  float: left;
+  padding: 0 25px;
+  background: url("../images/dt-5_1.gif");
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  border-radius: 6px 6px 0 0;
+  font-size: 14px;
+  behavior: url("../js/ie-css3.htc");
+}
+.title a {
+  float: right;
+  width: 39px;
+  height: 11px;
+  background: url("../images/more_1.gif");
+  margin-top: 10px;
+  margin-right: 10px;
+}
+/*134公共类样式结束*/
+/*25 公共类样式开始*/
+.top {
+  overflow: hidden;
+  padding: 0 15px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  background: url("../images/dt-6_1.gif");
+  color: #fff;
+  border-radius: 6px 6px 0 0;
+}
+.top span {
+  float: left;
+}
+.top a {
+  float: right;
+  font-size: 12px;
+  color: #fff;
+  font-family: "宋体";
+}
+/*25 公共类样式结束*/
+/*1*/
+.about {
+  width: 675px;
+  height: 328px;
+  background-color: #fff;
+  float: left;
+  box-sizing: border-box;
+}
+.about .content {
+  padding: 10px;
+}
+.about .content img {
+  margin: 8px;
+  float: left;
+}
+.about .content h3 {
+  font-weight: bold;
+  padding-top: 10px;
+  color: #333333;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+.about .content p {
+  font-size: 13px;
+  color: #333333;
+  line-height: 24px;
+  text-indent: 2em;
+}
+/*3*/
+.product {
+  width: 330px;
+  height: 232px;
+  float: left;
+  margin-top: 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+/*4*/
+.scheme {
+  width: 330px;
+  height: 232px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 14px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+/*2*/
+.news {
+  width: 290px;
+  height: 328px;
+  float: right;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 6px 6px 0 0;
+}
+.news .mian {
+  padding: 10px;
+}
+.news .mian img {
+  width: 110px;
+  height: 110px;
+  margin: 10px 10px 0;
+  float: left;
+}
+.news .mian h3 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000;
+}
+.news .mian p {
+  font-style: italic;
+  color: #666;
+  line-height: 22px;
+  padding-bottom: 16px;
+  border-bottom: 1px dotted #ccc;
+}
+/*5*/
+.joinus {
+  width: 290px;
+  height: 232px;
+  float: right;
+  margin-top: 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 6px 6px 0 0;
+}
+/* 3 4 5 的共同内容类样式*/
+.inner {
+  padding: 10px;
+  overflow: hidden;
+}
+.inner ul li {
+  padding-left: 13px;
+  height: 30px;
+  line-height: 30px;
+}
+.inner ul li i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-right: 5px;
+  width: 4px;
+  height: 6px;
+  background: url("../images/dt-1.gif");
+}
+.inner ul li a {
+  color: #333;
+}
+.inner ul li a:hover {
+  color: #05a300;
+}
+.inner ul li span {
+  float: right;
+}
+.footscheme {
+  float: left;
+  margin-top: 15px;
+  width: 980px;
+  height: 52px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
+}
+.map {
+  height: 58px;
+  background-color: #fff;
+  float: left;
+  width: 980px;
+  margin-top: 15px;
+  line-height: 33px;
+  padding: 5px 15px 10px;
+  box-sizing: border-box;
+}
+.map i {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  margin-top: 7px;
+  width: 15px;
+  height: 16px;
+  background: url("../images/dt-2.gif");
+}
+.map span {
+  display: block;
+  padding-left: 20px;
+  height: 33px;
+  line-height: 33px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 14px;
+  color: #333;
+}
+.map a {
+  float: right;
+  margin-top: -33px;
+}
+.exchange .ex-show {
+  position: fixed;
+  right: 5px;
+  top: 100px;
+  cursor: pointer;
+  width: 26px;
+  height: 90px;
+  background: #4dc236;
+  padding: 8px 3px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+}
+.exchange .ex-hide {
+  position: fixed;
+  right: 5px;
+  top: 100px;
+  width: 129px;
+  background-color: #fff;
+  display: none;
+}
+.exchange .ex-hide span {
+  display: block;
+  background-color: #4dc236;
+  width: 129px;
+  height: 21px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 0;
+}
+.exchange .ex-hide ul {
+  padding: 0 10px;
+}
+.exchange .ex-hide ul li p {
+  color: #31991d;
+  height: 21px;
+  line-height: 21px;
+  margin-top: 5px;
+  border: 0 none;
+}
+.exchange .ex-hide ul li img {
+  display: inline-block;
+}
+.exchange .ex-hide p {
+  height: 40px;
+  border-top: 1px dotted #ccc;
+  margin-top: 12px;
+  padding: 0 10px;
+}

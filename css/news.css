@@ -1,0 +1,37 @@
+
+
+
+
+    /*h3下面的内容区域*/
+    #news-content{
+        padding: 15px;
+        position: relative;
+    }
+    #news-content-2{
+        padding:0 5px;
+    }
+    #news-content h3,
+    #news-content-2 h3{
+        float: left;
+        color: #333;
+        background: transparent;
+    }
+    #news-content h3 s,
+    #news-content-2 h3 s{
+        color: red;
+    }
+    #news-content span,
+    #news-content-2 span{
+        float: right;
+        font-size: 12px;
+        color: #aaa;
+        height: 34px;
+    }
+    #news-content p,
+    #news-content-2 p{
+        color: #ccc;
+        float: left;
+        font-size: 12px;
+        text-indent: 2em;
+        color: #aaa;
+    }

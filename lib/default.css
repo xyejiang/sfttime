@@ -1,0 +1,117 @@
+
+
+
+/*设置小点的样式文件*/
+
+.theme-default .nivoSlider {
+	position:relative;
+    /*margin-bottom:10px;*/
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	/*小点位置*/
+	text-align: center;
+	position: absolute;
+	z-index: 9;
+	bottom: -10px;
+	right: 3px;
+}
+.theme-default .nivo-controlNav a {
+	/*小点样式*/
+	display:inline-block;
+	width:25px;
+	height:16px;
+	line-height: 16px;
+	/*text-indent:-9999px;*/
+	border:0;
+	margin: 0 2px;
+	color: #fff;
+	background-color: #000;
+	background: rgba(0 , 0 , 0,.4);
+	filter:alpha(opacity=40);
+	font-size: 12px;
+}
+
+/*.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.theme-default:hover .nivo-directionNav a { opacity: 1; }    左右点击按钮 */
+/*.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}*/
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+
+
+/*style里面的样式放在这里*/
+#dev7link {
+	position:absolute;
+	top:0;
+	left:50px;
+	/*background:url(images/dev7logo.png) no-repeat;*/
+	width:60px;
+	height:67px;
+	border:0;
+	display:block;
+	text-indent:-9999px;
+}
+.slider-wrapper {
+	/*整体位置设置*/
+	position: relative;
+	width: 980px;
+	margin: 10px auto;
+}
+/*=== Other Styles ===*/
+.clear {
+	clear:both;
+}
